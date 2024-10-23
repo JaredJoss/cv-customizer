@@ -1,0 +1,103 @@
+# **Jared Joselowitz**  
+12 Winstanley Road, London, SW11 2DL, UK  
++27 78 455 7509  
+[jared.joselowitz23@imperial.ac.uk](mailto:jared.joselowitz23@imperial.ac.uk)  
+[LinkedIn](https://linkedin.com/jaredjoselowitz) | [GitHub](https://github.com/jaredjoss)  
+
+## **Profile**  
+MSc in Applied Machine Learning at Imperial College London with experience in developing and deploying ML models, collaborating with cross-functional teams, and solving real-life challenges through cutting-edge ML techniques. Passionate about building reliable, interpretable, and steerable AI systems with a focus on safety and societal benefits. Extensive programming experience with Python and deep learning frameworks.
+
+---
+
+## **Education**
+
+### **Imperial College London**  
+**MSc in Applied Machine Learning**  
+*Exp. Sep 2024* — London, UK  
+- **Relevant Coursework**:Machine Learning (linear regression, logistic regression, SVMs, Knn), Deep Learning (CNN, RNN, RL, Autoencoders, VAE, GAN), Advanced Deep Learning Systems, Topics in Large Dimensional Data Processing, Computer Vision and Pattern Recognition (PCA, LDA, decision trees), Optimization. 
+- **Dissertation**: *Inverse Reinforcement Learning for Large Language Model Interpretability*. Involves the fine-tuning of open source HuggingFace LLMs using RLHF and then extracting the reward model using IRL.
+- **Advisor**: Dr. Sonali Parbhoo.
+
+### **University of the Witwatersrand**  
+**BSc in Electrical (Information) Engineering**  
+*2018–2021* — Johannesburg, South Africa  
+- Graduated with distinction; 22 distinctions overall.  
+- First place in 4th year, Top 5 in 3rd year.  
+- **Final Year Thesis**: *Quantizing the Effectiveness of Scientific Speeches on Climate Change* (97% mark).  
+- **Advisor**: Dr. Vered Aharonson.
+
+---
+
+## **Experience**
+
+### **BTheChange** — Research Science Assistant  
+*Dec 2022 – Present*  
+- Developing an Interactive Programme to address the lack of formal climate change education in Europe.
+- Collaborate with international researchers on an Erasmus Plus KA2 Higher Education project.
+- Utilized NLP (sentiment analysis, emotions analysis) to analyse user comments on YouTube videos.
+- Conducted data analysis to discover which videos portray an effective message on climate change.
+
+### **The Awareness Company** — Junior Data Scientist  
+*Sep 2022 – July 2023* — Johannesburg, South Africa  
+- Worked collaboratively in a cross functional engineering team on an AI-powered data storytelling platform.
+- Used data analysis to investigate the robustness of Machine Learning models to maximise their performance and robustness, including a computer vision model (using  Azure Computer Vision and Custom Vision Cognitive Services) to identify animals, people, and cars and an energy demand model to predict energy usage in buildings.
+- Designed, trained, and deployed custom ML models to solve real-life challenges including a time-series soil moisture predictor and a poaching predictor capable of identifying high-risk areas for poaching in the Kafue National Park, Zambia.
+- Utilized Azure OpenAI Service to fine-tune a state of the art LLM-based chatbot with company-specific data for deployment and hosting to end users via an API.
+
+### **Tesserae** — Junior Full-Stack Software Engineer  
+*Feb 2022 – Aug 2022* — Johannesburg, South Africa  
+- Worked in an engineering team of five people on a Full stack AI annotation platform used to provide business intelligence in the FinTech industry.
+- Worked on both the frontend (React) and backend (Django) to design, develop, and deploy user-facing features.
+- Built an end-to-end testing infrastructure in Python using Cypress and created a bot to enable WhatsApp annotation, deployed using AWS Lambda functions.
+
+### **LearnTech** — Software Development Intern  
+*Dec 2019 – Jan 2020* — Johannesburg, South Africa  
+- Worked as part of a four-person team tasked with developing a gamification application.
+- Learned database querying using PHP MySQL and Git for source control.
+
+---
+
+## **Projects**
+
+### **Masters Thesis**: *Inverse Reinforcement Learning for Large Language Model Interpretability*  
+- Utilized the TRL library to take a groundtruth reward model and fine-tune open source Pythia LLMs (70M and 410M parameters) using RLHF to reduce the toxicity of the models.  
+- Developed a novel max-margin Inverse Reinforcement Learning algorithm applied to LLMs to extract the reward model from the fine-tuned LLMs. Found that IRL can effectively extract reward models that closely approximate the original RLHF objectives. The accuracy of the algorithm reached 80.40\%.
+- Analysed the results and showed that normal correlation metrics were insufficient for assessing viability for this application. Other techniques including policy comparison were done to show IRL proficiency.
+- Using the IRL reward model to fine-tune an LLM results in a lower toxicity than the original RLHF process. Therefore, not only does the work enhance interpretability but also alignment with human values.
+
+### **Bachelors Thesis**: *Quantifying the Effectiveness of Speeches on Climate Change*  
+- Used Natural Language Processing to develop a method capable of quantifying the effectiveness of speeches on climate change by analysing user comments.
+- Leveraged NLTK for text preprocessing and feature engineering, followed by developing an ensemble of machine learning models in scikit-learn, achieving 82.35\% classification accuracy.
+- Analyzed key factors contributing to the video effectiveness, including participant profiles and video formats. 
+
+---
+
+## **Technical Skills**
+
+- **Languages**: Python, MATLAB, JavaScript, R, C++, HTML
+- **Technologies**: TensorFlow, PyTorch, Keras, Scikit-learn, HuggingFace, NLTK, Pandas, NumPy, SciPy, LangChain, Matplotlib, Seaborn, React.js, Django, Node.js  
+- **Developer Tools**: Git, High Performance Computing, SQL (SQLServer, MySQL, PostgreSQL, NoSQL), Docker  
+- **Cloud Computing**: AWS (S3, Lambda, DynamoDB, Elastic Beanstalk, SageMaker), Azure (AI Studio, OpenAI Service, Computer Vision, CosmosDB)  
+- **Concepts**: Artificial Intelligence, Machine Learning, Deep Learning, NLP, RLHF, IRL, Transformers, Imitation Learning, APIs, Agile Methodology, OOP, HPC
+
+---
+
+## **Publications**
+
+- *Video Selection for Enjoyable Learning* — Slawomir Nowaczyk, Jared Joselowitz, Vered Aharonson, 14th Canada International Conference on Education (CICE-2024)  
+- *On Presenters and Commenters in YouTube Climate Change Videos* — Vered Aharonson, Jared Joselowitz, 11th European Conference on Social Media (ECSM 2024)  
+- *Video Features Predicting Engagement in Climate Change Education* — Vasiliki Christodoulou et al., E3S Web of Conferences Journal (2023)  
+- *Collaborative Learning in YouTube* — Kalypso Iordanou et al., 15th International Conference on Computer-Supported Collaborative Learning (CSCL 2022)
+
+---
+
+## **Achievements**
+
+- **Entelect Prize** — 1st place in 4th year of study (2021)  
+- **Isazi Consulting Prize** — Top 5 students in 3rd year (2020)  
+- **Certificates of Merit** — Signals and Systems IIA, Physics II, Data Structures and Algorithms, Mathematics I (2018-2020)  
+- **Golden Key Society**, **Dean’s List**, **University Entrance Scholarship** (2018)
+
+---
+
+*References available on request.*

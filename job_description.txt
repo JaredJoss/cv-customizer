@@ -1,0 +1,49 @@
+DESCRIPTION
+Amazon Advertising is one of Amazon's fastest growing businesses. Amazon's advertising portfolio helps merchants, retail vendors, and brand owners succeed via native advertising, which grows incremental sales of their products sold through Amazon. The primary goals are to help shoppers discover new products they love, be the most efficient way for advertisers to meet their business objectives, and build a sustainable business that continuously innovates on behalf of customers.
+Our products and solutions are strategically important to enable our Retail and Marketplace businesses to drive long-term growth. We deliver billions of ad impressions and millions of clicks and break fresh ground in product and technical innovations every day!
+
+The Creative X team within Amazon Advertising time aims to democratize access to high-quality creatives (audio, images, videos, text) by building AI-driven solutions for advertisers. To accomplish this, we are investing in understanding how best users can leverage Generative AI methods such as latent-diffusion models, large language models (LLM), generative audio (music and speech synthesis), computer vision (CV), reinforced learning (RL) and related.
+As an Applied Scientist you will be part of a close-knit team of other applied scientists, engineers and product managers who are highly collaborative and at the top of their respective fields.
+
+We are looking for talented Applied Scientists who are adept at a variety of skills, especially at the interface of how users can use state-of-the-art generative music and audio, computer vision, latent diffusion or related foundational models that will accelerate our plans to generate high-quality creatives on behalf of advertisers. Every member of the team is expected to build customer (advertiser) facing features, contribute to the collaborative spirit within the team, publish, patent, and bring cutting edge research to raise the bar within the team.
+
+You will:
+
+- Drive the invention and development of novel methods for the use of Generative AI in ads
+- Work closely and integrate end-to-end proof-of-concept Machine Learning projects that have a high degree of ambiguity, scale and complexity.
+- Build interface-oriented systems that use Machine Learning models, perform proof-of-concept, experiment, optimize, and deploy your models into production; work closely with software engineers to assist in productionizing your ML models.
+- Run A/B experiments, gather data, and perform statistical analysis.
+- Establish scalable, efficient, automated processes for large-scale data analysis, machine-learning model development, model validation and serving.
+- Mentor and help recruit Applied Scientists to the team.
+- Present results and explain methods to senior leadership.
+- Willingness to publish research at internal and external top scientific venues.
+- Write and pursue IP submissions.
+
+
+Key job responsibilities
+This role is focused on developing Machine Learning and Generative AI methods to augment generative imagery and videos. You will develop new paradigms that will impact how users can engage and benefit from GenAI and that are at the core of advertising-facing tools that we are launching. You will also work on development of ML and GenAI models. You will conduct literature reviews to stay on the cutting edge of the field. You will regularly engage with product managers, who will partner with you to productize your work.
+
+A day in the life
+On a day-to-day basis, you will be doing your independent research and work to develop models, you will participate in sprint planning, collaborative sessions with your peers, and demo new models and share results with peers, other partner teams and leadership.
+
+About the team
+The team is a growing team of applied scientists and product leaders. We reside in the Creative X organization, which focuses on creating products for advertisers that will improve the quality of the creatives within Amazon Ads.
+
+We are open to hiring candidates to work out of one of the following locations:
+
+UK (London)
+
+BASIC QUALIFICATIONS
+- Experience with researching, publishing and or developing human-in-the-loop systems
+- PhD, or Master's degree and CS, CE, ML or related field experience,
+- Experience with participant study design
+- Programming experience in Java, C++, Python or related language.
+
+PREFERRED QUALIFICATIONS
+- Advanced degree in Computer Science, Mathematics, Statistics, Economics, or related quantitative field.
+- Published relevant research work in academic conferences (e.g. CVPR, ICCV, ECCV, CHI, SIGGRAPH) or industry circles.
+- Effective verbal and written communication skills with non-technical and technical audiences.
+- Experience working with large real-world data sets and designing scalable models from big data.
+- Thinks strategically, but stays on top of tactical execution.
+- Exhibits excellent business judgment; balances business, product, and technology very well.
+- Familiarity with computational advertising.
