@@ -117,7 +117,7 @@ def modify_cv(keywords, cv, provider, model_name, verbose=False):
     Your task is to modify the given CV to better incorporate the key words and phrases identified from the job description.
     Maintain honesty and accuracy while focusing on relevant experience and skills.
     Do not make up experience that is not present in the CV.
-    Focus on incorporating the keywords naturally where they match existing experience.
+    Focus on incorporating the keywords naturally where they match existing experience and emphasizing certain sections that are more important.
 
     Key words and phrases from the job description:
     {keywords}
@@ -127,7 +127,7 @@ def modify_cv(keywords, cv, provider, model_name, verbose=False):
     {cv}
     ```
 
-    Please provide the modified CV maintaining the original format but incorporating relevant keywords where appropriate.
+    Please provide the modified CV maintaining the original format but incorporating relevant keywords where appropriate. Whenever you use a key word/phrase, put a '$' in front.
     """
     
     prompt = PromptTemplate(
