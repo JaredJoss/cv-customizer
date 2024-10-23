@@ -127,7 +127,8 @@ def modify_cv(keywords, cv, provider, model_name, verbose=False):
     {cv}
     ```
 
-    Please provide the modified CV maintaining the original format but incorporating relevant keywords where appropriate. Whenever you use a key word/phrase, put a '$' in front.
+    Please provide the modified CV maintaining the original format but incorporating relevant keywords where appropriate. 
+    Whenever you use a key word/phrase from the given list, put a '$' in front.
     """
     
     prompt = PromptTemplate(
