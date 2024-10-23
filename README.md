@@ -22,7 +22,7 @@ A Python tool that uses AI to customize your CV/resume based on job descriptions
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone git@github.com:JaredJoss/cv-customizer.git
 cd cv_customizer
 ```
 
