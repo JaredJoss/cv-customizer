@@ -5,7 +5,7 @@
 [LinkedIn](https://linkedin.com/jaredjoselowitz) | [GitHub](https://github.com/jaredjoss)  
 
 ## **Profile**  
-MSc in Applied Machine Learning at Imperial College London with experience in developing and deploying ML models, collaborating with cross-functional teams, and solving real-life challenges through cutting-edge ML techniques. Passionate about building reliable, interpretable, and steerable AI systems with a focus on safety and societal benefits. Extensive programming experience with Python and deep learning frameworks.
+Masters in Applied Machine Learning at Imperial College London with experience in developing and deploying ML models, collaborating with cross-functional teams, and solving real-life challenges through cutting-edge ML techniques. Passionate about building reliable, interpretable, and steerable AI systems with a focus on safety and societal benefits. Extensive programming experience with Python and deep learning frameworks.
 
 ---
 
