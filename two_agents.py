@@ -113,23 +113,51 @@ def modify_cv(keywords, cv, provider, model_name, verbose=False):
     llm = get_llm(provider, model_name)
     
     cv_modification_template = """
-    You are a professional CV/resume expert.
-    Your task is to modify the given CV to better incorporate the key words and phrases identified from the job description.
-    Maintain honesty and accuracy while focusing on relevant experience and skills.
-    Do not make up experience that is not present in the CV.
-    Focus on incorporating the keywords naturally where they match existing experience and emphasizing certain sections that are more important.
+        You are a professional CV/resume expert specializing in tailoring CVs to specific job requirements.
 
-    Key words and phrases from the job description:
-    {keywords}
+        Your task is to optimize the given CV using the extracted keywords/phrases from the job description. Follow these guidelines:
 
-    Original CV:
-    ```
-    {cv}
-    ```
+        1. KEYWORD INCORPORATION:
+        - Naturally integrate keywords where they align with existing experience
+        - Look for synonyms or similar phrases in the CV that could be replaced with the exact keywords
+        - When using a keyword/phrase from the list, mark it with '$' prefix
 
-    Please provide the modified CV maintaining the original format but incorporating relevant keywords where appropriate. 
-    Whenever you use a key word/phrase from the given list, put a '$' in front.
-    """
+        2. EXPERIENCE EMPHASIS:
+        - Reorder bullet points to prioritize most relevant experiences
+        - Expand descriptions of experiences that match job requirements
+        - Add specific metrics or outcomes where they support required skills
+        - Consider merging related bullet points to create stronger, keyword-rich descriptions
+
+        3. SKILLS ALIGNMENT:
+        - Identify transferable skills that match keywords but may be described differently
+        - Highlight relevant technical skills earlier in descriptions
+        - Ensure soft skills are demonstrated through concrete examples
+
+        4. HONESTY RULES:
+        - Never invent or exaggerate experiences
+        - Only use keywords where they genuinely match existing experience
+        - Keep all dates, roles, and qualifications exactly as they appear
+        - If you're expanding a description, use only information that can be reasonably inferred from the original
+
+        5. FORMAT REQUIREMENTS:
+        - Maintain the original CV structure and sections
+        - Keep the professional tone and writing style
+        - Ensure all modified content aligns with the original context
+
+        Keywords and phrases from the job description:
+        {keywords}
+
+        Original CV:
+        {cv}
+        
+        Please provide the modified CV with the following:
+        1. Mark all incorporated keywords/phrases with '$' prefix
+        2. Maintain original format but optimize content following the guidelines above
+        3. Focus on meaningful integration rather than superficial keyword placement
+        4. Ensure every modification preserves the authenticity of the original experience
+
+        Remember: The goal is to make the existing experience more relevant and visible to the job requirements, not to create new experience.
+        """
     
     prompt = PromptTemplate(
         input_variables=["keywords", "cv"],
@@ -184,7 +212,7 @@ def main():
     
     # Save output
     try:
-        with open(args.output, "w") as f:
+        with open(f"cvs/{args.output}", "w") as f:
             f.write(modified_cv)
         if args.verbose:
             print(f"\nCustomized CV saved to: {args.output}")
